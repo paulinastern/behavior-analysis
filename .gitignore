@@ -1,0 +1,117 @@
+############################
+# 🧠 Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+############################
+# 🔐 Environment Variables
+############################
+.env
+.env.*
+*.env
+
+############################
+# 📊 Data / Models (IMPORTANT for ML)
+############################
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+models/
+checkpoints/
+
+############################
+# ⚛️ Node / React / JS
+############################
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# 📱 Flutter / Dart
+############################
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+############################
+# 🧠 VSCode / IDE
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# 🍎 macOS
+############################
+.DS_Store
+
+############################
+# 🪟 Windows
+############################
+Thumbs.db
+
+############################
+# 🐳 Docker
+############################
+*.tar
+
+############################
+# 🧪 Testing / Coverage
+############################
+coverage/
+htmlcov/
+.pytest_cache/
+
+############################
+# 🔒 Secrets
+############################
+*.pem
+*.key
+*.crt
+*.p12
+
+############################
+# 🚀 Deployment
+############################
+.vercel/

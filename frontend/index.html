@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Behavioral Signal Lab</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- Header -->
+    <header class="top">
+      <div class="brand">Behavioral Signal Lab</div>
+      <div class="sub">
+        AI-powered behavioral pattern analysis from sparse conversational text.
+      </div>
+    </header>
+
+    <!-- API Panel -->
+    <section class="panel">
+      <div class="row">
+        <label>API Base URL</label>
+        <input id="apiBase" value="http://localhost:8000" />
+      </div>
+    </section>
+
+    <!-- Analyzer -->
+    <section class="chat">
+      <div class="messages">
+        <h2>Behavioral Reaction Analyzer</h2>
+        <p>Paste responses, chat logs, or short answers below.</p>
+
+        <textarea 
+          id="analysisInput"
+          rows="10"
+          placeholder="Paste 3–6 short responses here..."
+        ></textarea>
+
+        <br><br>
+
+        <button id="analyzeBtn">Analyze</button>
+
+        <div id="analysisOutput" class="analysisBox"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
