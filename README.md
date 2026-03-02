@@ -1,4 +1,4 @@
-# Behavioral Signal Lab
+# Behavioral Signal Lab (MistralAI SF Hackathon)
 
 AI-powered behavioral pattern analysis from sparse conversational text.
 
